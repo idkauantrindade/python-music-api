@@ -42,23 +42,23 @@ The system can be used as a **CLI tool** or integrated into other Python project
 ```bash
 git clone https://github.com/yourusername/python-music-api.git
 ```
----
 
-## Usage
-
-1. Install the package
+2. Install the package
 
 ```bash
 pip install python-music-api
 ```
+---
 
-2. Running the API
+## Usage
+
+1. Running the API
 
 ```bash
 uvicorn main:app --reload  
 ```
 
-3. Accessing the API
+2. Accessing the API
 
 ```bash
 http://127.0.0.1:8000/musics/<music_name>
